@@ -4,114 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Indira Sharshebaeva</title>
+    <title>Indira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <div class="container">
-          <a id="logo" class="header-logo" href="#home">Indira Sharshebaeva</a>
-          <ul class="menu">
-            <li class="menu-item">
-              <a class="menu-link" href="#home">Home</a>
+      <div class="container">
+        <nav class="header-nav">
+          <a href="#" class="header-logo">Indira Sharshebaeva</a>
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="#home" class="header-menu-link">Home</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#skills">Skills</a>
+            <li class="header-menu-item">
+              <a href="#contacts" class="header-menu-link">Contacts</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#code">Code Example</a>
+            <li class="header-menu-item">
+              <a href="#skills" class="header-menu-link">Skills</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#portfolio">Portfolio</a>
+            <li class="header-menu-item">
+              <a href="#code" class="header-menu-link">Code example</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="#languages">Languages</a>
+            <li class="header-menu-item">
+              <a href="#languages" class="header-menu-link">Languages</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#education" class="header-menu-link">Education</a>
             </li>
           </ul>
-        </div>
-      </nav>
-      <img src="images/i.jpg" alt="Indira's avatar" width="170" />
-      <h1>Indira Sharshebaeva</h1>
-      <h3>Beginner Web-Developer</h3>
-      <p>
-        Junior Developer I am interested in web programming and everything that
-        is in its orbit. I strive to learn all the good skills. I really want to
-        become a successful programmer
-      </p>
-      <h3>Contacts</h3>
-      <ul>
-        <li>
-          <h4>Location</h4>
-          <a href="">Karakol,Kyrgyzstan</a>
-        </li>
-        <li>
-          <h4>Phone number</h4>
-          <a href="tel:+996222240464">+996 222-24-04-64</a>
-        </li>
-        <li>
-          <h4>Email</h4>
-          <a href="mailto:indira.sharshebaevaa.alt@gmail.com"
-            >indira.sharshebaevaa.alt@gmail.com</a
-          >
-        </li>
-      </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section class="skills" id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>VS Code</li>
-          <li>Canva</li>
-          <li>photoshop</li>
-        </ul>
+      <section class="intro">
+        <div class="container">
+          <div class="intro-inner">
+            <div class="intro-left">
+              <img class="intro-img" src="images/i.jpg" alt="Indira" />
+            </div>
+            <div class="intro-right">
+              <h1>Indira Sharshebaeva</h1>
+              <h3>Front-end developer</h3>
+              <p>
+                Junior Developer I am interested in web programming and
+                everything that is in its orbit. I strive to learn all the good
+                skills. I really want to become a successful programmer
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <section id="code">
-        <h2>Code Example</h2>
-        <pre>
-          <code>
-            &lt;ul&gt;
-              &lt;li&gt;HTML&lt;/li&gt;
-              &lt;li&gt;VS Code&lt;/li&gt;
-              &lt;li&gt;Canva&lt;/li&gt;
-              &lt;li>Canva/li&gt;
-             &lt;li>photoshop/li&gt;
-            &lt;/ul&gt;
-          </code>
-        </pre>
+      <section id="contacts" class="contacts">
+        <div class="container">
+          <h2 class="section-title">CONTACTS</h2>
+          <ul>
+            <li>
+              <h4>Location</h4>
+              <p>Karakol,Kyrgyzstan</p>
+            </li>
+            <li>
+              <h4>Phone</h4>
+              <a href="tel:+996222240464">+996222 24 04 64</a>
+            </li>
+            <li>
+              <h4>Email</h4>
+           <a href="mailto:indira.sharshebaevaa.alt@gmail.com">indira.sharshebaevaa.alt@gmail.com</a>
+            </li>
+          </ul>
       </section>
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <img src="images/certic.jpg" width="300" alt="сертификат" />
+      <section id="skills"class="skills section">
+<div class="container">
+  <h2 class="section-title">SKILLS</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>VS code</li>
+    <li>Git,GitHab</li>
+    <li>Photoshop</li>
+  </ul>
+</div>
       </section>
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li><b>English</b> &mdash; Just a little</li>
-          <li><b>Russian</b> &mdash; Average</li>
-          <li><b>Kyrgyz</b> &mdash; Native</li>
-        </ul>
+      <section id="code" class="code-example section">
+        <div class="container">
+<h2 class="section-title">CODE EXAMPLE</h2>
+       <p>
+         <b>Task:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+       </p>
+       <pre>
+         <code>
+          &lt;ul&gt;
+          &lt;li&gt;HTML&lt;/li&gt;
+          &lt;li&gt;CSS&lt;/li&gt;
+          &lt;li&gt;VS Code&lt;/li&gt
+          &lt;li>Canva/li&gt;
+         &lt;li>Photoshop/li&gt;
+        &lt;/ul&gt;
+         </code>
+       </pre>
+        </div>
       </section>
-      <section id="education">
-        <h2>Education</h2>
-        <ul>
+      <section id="languages" class="languages">
+        <div class="container">
+        <h2 class="section-title">Languages</h2>
+          <ui>
           <li>
-            <a
-              href="https://blizko.pro/kg/karakol/firm/shkola-gimnaziya-11-im-m-gorykogo"
-              >shkola-gimnaziya-11</a
-            >
+            <img src="images/united-states-of-america.png" alt="logo" /><strong>English</strong>
+            -pre-intermediate
           </li>
-          <li><a href="https://kstu.kg/">KGTU im.I.Razzakova</a></li>
-          <li><a href="https://linktr.ee/jyldyzacademy">jyldyzacademy</a></li>
-        </ul>
+          <li>
+            <img src="images/russia.png" alt="logo"><strong>Russian</strong> —Average
+          </li>
+          <li>
+            <img src="images/kyrgyzstan.png" alt="logo">
+            <strong>Kyrgyz</strong>— Native
+          </li>
+        </ui>
+      </div>
+      </section>
+      <section id="education" class="education section">
+<div class="container">
+  <h2 class="section-title">EDUCATION</h2>
+  <div class="wrapper">
+          <div>
+            <img class="education-logo"
+            src="images/school (2).jpg" alt="shkola-gimnaziya-11 " height="260px">
+              <strong><p>  Shkola-gimnaziya-11 (2008-2019)</p></strong >
+          </div>
+          <div><img class="education-logo" src="images/i (4).jpg" alt="KGTU im.I.Razzakova" width="250px" height="260px"> <strong><p> KGTU im.I.Razzakova Software-protected infocommunications(full-time bachelor)(IET) (2019-2023)</p></strong></div>
+          <div><img class="education-logo"
+            
+          src="images/i (1).jpg" alt="jyldyzacademy" width="250px" height="260px"><strong><p>Jyldyz Academy (2022)</p></strong></div>
+          </div>
+          </div>
       </section>
     </main>
-    <footer>
-      <p>
-        2022 © <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a>
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          "2022 &copy; Indira Sharshebaeva
+          <a href="https://linktr.ee/jyldyzacademy2020"
+            ><strong>JyldyzAcademy</strong> </a>"
+        </p>
+      </div>
     </footer>
   </body>
 </html>
